@@ -1,8 +1,8 @@
 function ejercicio6() {
 
-   let par = prompt("Ingres un numero para verificar si es par o impar");
+   let par = prompt("Ingres un numero para verificar si es par o impar");//par es parametro
 
-   let result = paroImp(par);
+   let result = paroImp(par);//paroImp sirve para relacionar let result con otra funcion (function paro Imp(num)).Para que se mas organizado
 
    console.log(result);
 }
