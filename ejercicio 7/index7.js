@@ -2,7 +2,7 @@ function ejercicio7() {
 
     let letra = prompt("Ingresa un letra: ");
 
-  let result = caramaymi(letra) 
+  let result = caramaymi(letra)
 
   console.log(result);
 
