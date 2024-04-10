@@ -10,9 +10,10 @@ function ejercicio7() {
 function caramaymi(txt){
     let may = 0;
     let min = 0;
-
-    for(let i = 0; i < txt.lenght; i++){
-
+    
+    console.log(txt.length);
+    for(let i = 0; i < txt.length; i++){
+        
     if(txt.charAt(i) === txt.charAt(i).toUpperCase()) {
          may++;
     } else if(txt.charAt(i) === txt.charAt(i).toLowerCase()) {
